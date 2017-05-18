@@ -1,0 +1,244 @@
+/*--------------------------
+    CSS RESET
+--------------------------*/
+
+* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+body{
+	font-family: Georgia,"Times New Roman";
+	color: #000;
+}
+
+.icon{
+	height: 16px;
+	width: 16px;
+	padding-right: 2px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+header a{
+	font-size: 12px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    width: 50px;
+}
+
+.btn{
+	padding: 2px;
+	border-radius: 2px ;
+}
+.mastHead{
+	width: 100%;
+}
+.logo {
+	margin: 0 auto;
+}
+.logo img{
+	display: block;
+	margin: auto;
+}
+.mastHead_left{
+	float: left;
+}
+.mastHead_right{
+	float: right
+}
+.mastHead::after,
+.mastHead::before{
+	content: "";
+	height: 0;
+    clear: both;
+}
+
+ul{
+	margin: 0;
+	padding: 2px 10px;
+}
+
+.ribbon-teaser{
+	height: 80px;
+	margin: 1px 10px;
+	border-style: solid;
+	border-width: 1px 0 1px 0;
+	border-color: #d3d3d3;
+}
+.mainArticle header{
+	height: 60px;
+	font-size: 2rem;
+	line-height: 2rem;
+	font-weight: 600;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+.mainArticleAside{
+	border-top: 1px solid #000;
+}
+
+h4{
+	font-size: 14px;
+	font-weight:200;
+}
+.author{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.socialMediaRibbon{
+	height: 70px;
+	width: 130px;
+    float: right;
+}
+.teaser-item{
+	width: 230px;
+	display: inline-block;
+	text-align: top;
+}
+
+.story-heading{
+	font-size: 12px;
+	font-weight: 400;
+	min-height: 36px;
+}
+
+.vertical-rule{
+	height:65px;
+	display: inline-block;
+	color: #fefefe;
+	float: right;
+	margin: 0;
+}
+
+.thumb{
+	height: 65px;
+	width: 65px;
+	float: left;
+}
+
+.mainArticle img{
+ width: 100%;
+}
+
+.mainArticle{
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+.story-content{
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+.interesting_graphic{
+	position: relative;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: 300;
+}
+.style_start{
+	font-weight: 700;
+}
+
+.pAbs{
+	position: absolute;
+}
+
+.style0{
+	top: 25%;
+	left: 5%;
+	width: 228px;
+}
+
+.style1{
+	top: 25%;
+	left:28%;
+	width: 228px;
+}
+
+.style2{
+	top: 25%;
+	left:50%;
+	width: 228px;
+}
+
+.style3{
+	top: 25%;
+	left:75%;
+	width: 228px;s
+}
+
+.style4{
+	top: 75%;
+	left:5%;
+	width: 228px;
+}
+
+.style5{
+	top: 75%;
+	left:28%;
+	width: 228px;
+}
+
+.style6{
+	top: 75%;
+	left:50%;
+	width: 228px;
+}
+
+.style7{
+	top: 75%;
+	left:75%;
+	width: 228px;
+}
